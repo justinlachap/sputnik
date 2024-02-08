@@ -1,8 +1,5 @@
 name: Release
-on:
-  push:
-    tags:
-      - 'sputnik*'
+on: push
 
 jobs:
   build:
